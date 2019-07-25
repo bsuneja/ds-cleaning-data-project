@@ -52,4 +52,4 @@ finalResult <- smallSet %>% group_by(activityID,subject,activityName) %>% summar
 ## Rename columns to add the "avg" indicating it is the average of the variables 
 colnames(finalResult) <- c("activityID","subject","activityName", paste("Avg", colnames(finalResult[,4:82]), sep = "_"))
 
-write.table(finalResult,file = "./summaries.txt")
+write.table(finalResult,file = "./summaries.txt",row.names = FALSE)
