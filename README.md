@@ -4,7 +4,7 @@
 This assignment uses the course provided data (Human Activity Recognition Using Smartphones Dataset) and goes through the steps of
 
 1. Combining the training and test datasets 
-2. Appropriately naming the variables and rows.
+2. Appropriately naming the variables(columns) and rows (adding subject and activityID & name).
 3. Creating a subset of the data that has just the std and mean variables 
 4. And then creating a tidy data set from the last step that contains the averages for each variable, each activity type, and each subject 
 
