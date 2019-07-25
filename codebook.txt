@@ -1,0 +1,15 @@
+==================================================================
+Codebook for Example of Cleaning Data and Obtaining Summary using dplyr 
+- an assignment in Getting and Cleaning data course 
+Submitted by Balraj Suneja
+==================================================================
+
+The first three columns, mentioned below, are for referencing the records:
+activityID - activityID (1 to 6) for each type of activity 
+subject - a number representing and identifying the subject of the experiment i.e. the person who did the activity 
+activityName - a descriptive activity name 
+
+The next set of variables represent average of the mean or standard deviations.  As described in the readme file, I took the average for every column/variable that had mean or std in the label 
+The list of the columns can be referenced from the file features.txt in the original dataset. There were 561 features in the raw file.  After filtering for the std and mean we had 79 features.  Each feature name has been prefixed with "Avg_" to the original label to indicate that it is the average of the original data from X_test and X_train. 
+
+
